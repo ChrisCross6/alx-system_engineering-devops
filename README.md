@@ -18,7 +18,7 @@
 - [0x0F. Load balancer](./0x0F-load_balancer/)
 - [0x10. HTTP SSL](./0x10-https_ssl/)
 - [0x11. What happens when you type google.com in your browser and press Enter](./0x11/)
-- [0x12. Web sack debugging #2/0x12-web_stack_debugging_2/)
+- [0x12. Web sack debugging #2](./0x12-web_stack_debugging_2/)
 - [0x13. Firewall](./0x13-firewall/)
 - [0x14. Mysql](./0x14-mysql/)
 - [0x15. Api](./0x15-api/)
