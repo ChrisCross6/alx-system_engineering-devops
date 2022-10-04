@@ -1,6 +1,6 @@
 # 0x00. Shell, basics
 
-## esources
+## Resources
 
 **Read or watch**:
 
