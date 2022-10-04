@@ -152,8 +152,6 @@ _Example_
 
 ### Quiz questions
 
-**Great!** You've completed the quiz successfully! Keep going!
-
 #### Question #0
 
 What command would you use to list files on Linux?
