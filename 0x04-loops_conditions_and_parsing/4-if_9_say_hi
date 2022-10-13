@@ -8,5 +8,5 @@ do
     if [ $i -eq 9 ]
         then echo "Hi"
     fi
-    i=$((i + 1))
+    ((i++))
 done
