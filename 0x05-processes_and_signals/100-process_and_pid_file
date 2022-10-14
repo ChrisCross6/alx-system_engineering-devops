@@ -8,9 +8,9 @@
 touch /var/run/myscript.pid
 echo "$$" >> /var/run/myscript.pid
 
-trap 'echo "I hate the kill command"' SIGTERM
+trap 'echo "I hate the kill command" && rm -rf /var/run/myscript.pid && exit 0' SIGTERM
 trap 'echo "Y U no love me?!"' SIGINT
-trap 'rm -rf /var/run/myscript.pid && kill -SIGKILL $$' SIGQUIT || SIGTERM
+trap 'rm -rf /var/run/myscript.pid && exit 0' SIGQUIT
 
 for (( ; ; ))
 do
