@@ -18,11 +18,17 @@
 - [0x0E. Web stack debugging #1](./0x0E-web_stack_debugging_1/)
 - [0x0F. Load balancer](./0x0F-load_balancer/)
 - [0x10. HTTP SSL](./0x10-https_ssl/)
-- [0x11. What happens when you type google.com in your browser and press Enter](./0x11/)
+- [0x11. What happens when you type google.com in your browser and press Enter](./0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter/)
 - [0x12. Web sack debugging #2](./0x12-web_stack_debugging_2/)
 - [0x13. Firewall](./0x13-firewall/)
 - [0x14. Mysql](./0x14-mysql/)
 - [0x15. Api](./0x15-api/)
+- [0x16. Api Advanced](./0x16-api_advanced/)
+- [0x17. Web stack debugging #3](./0x17-web_stack_debugging_3/)
+- [0x18. Webstack monitoring](./0x18-webstack_monitoring/)
+- [0x19. Postmortem](./0x19-postmortem/)
+- [0x1A. Application server](./0x1A-application_server/)
+- [0x1B. Web stack debugging #4](./0x1B-web_stack_debugging_4/)
 
 ## License
 
