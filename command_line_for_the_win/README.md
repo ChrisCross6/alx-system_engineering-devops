@@ -1,6 +1,6 @@
 # Command line for the win
 
-![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/324/06AChAO.png)
+![](../assets/cmdlftw/0.png)
 
 ## Background Context
 
