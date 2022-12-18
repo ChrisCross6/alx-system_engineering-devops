@@ -8,7 +8,6 @@
 | 0x01  | [Shell, Permissions](./0x01-shell_permissions/)                                                                                                         |             |
 | 0x02  | [Shell, Redirections](./0x02-shell_redirections/)                                                                                                       |             |
 | 0x03  | [Shell, Variable Expansions](./0x03-shell_variables_expansions/)                                                                                        |             |
-| N/A   | [Command line for the win](./command_line_for_the_win)                                                                                                  |             |
 | 0x04  | [Loops, conditions and parsing](./0x04-loops_conditions_and_parsing/)                                                                                   |             |
 | 0x05  | [Proccesses and signals](./0x05-processes_and_signals/)                                                                                                 |             |
 | 0x06  | [Regular expressions](./0x06-regular_expressions/)                                                                                                      |             |
@@ -33,6 +32,8 @@
 | 0x19  | [Postmortem](./0x19-postmortem/)                                                                                                                        |             |
 | 0x1A  | [Application server](./0x1A-application_server/)                                                                                                        |             |
 | 0x1B  | [Web stack debugging #4](./0x1B-web_stack_debugging_4/)                                                                                                 |             |
+| N/A   | [Command line for the win](./command_line_for_the_win)                                                                                                  |             |
+| N/A   | [Attack is the best defense](attack_is_the_best_defense/)                                                                                               |             |
 
 ## Author
 
