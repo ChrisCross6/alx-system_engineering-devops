@@ -3,6 +3,8 @@
 
 # updatting
 sudo apt -y update
+# upgrading
+sudo apt -y upgrade
 # installing nginx
 sudo apt -y install nginx
 # allowing nginx on firewall
