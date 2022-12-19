@@ -3,11 +3,10 @@
 sudo add-apt-repository -y ppa:vbernat/haproxy-2.7
 sudo apt update -y
 sudo apt install haproxy -y
-balancer="\
-	bind :80
-	mode http
-	server 51402-web-01 100.25.191.25:80 check
-	server 51402-web-02 54.209.27.50:80 check
-	"
-sudo echo "$balancer" >> /etc/haproxy/haproxy.cfg
+printf "\n
+	\tbind :80\n
+	\tmode http\n
+	\tserver 51402-web-01 100.25.191.25:80 check\n
+	\tserver 51402-web-02 54.209.27.50:80 check\n
+	" >> /etc/haproxy/haproxy.cfg
 sudo service haproxy start
