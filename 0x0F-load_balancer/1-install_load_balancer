@@ -3,7 +3,7 @@
 sudo add-apt-repository -y ppa:vbernat/haproxy-2.7
 sudo apt update -y
 sudo apt install haproxy -y
-sudo sed -i '/errorfile 504 /etc/haproxy/errors/504.http/a listen mubareksd' /etc/haproxy/haproxy.cfg
+sudo sed -i '/errorfile 504/a listen mubareksd' /etc/haproxy/haproxy.cfg
 sudo sed -i 'listen mubareksd//a bind :80' /etc/haproxy/haproxy.cfg
 sudo sed -i 'bind :80//a mode http' /etc/haproxy/haproxy.cfg
 sudo sed -i '/mode http/a server 51402-web-01 100.25.191.25:80 check' /etc/haproxy/haproxy.cfg
