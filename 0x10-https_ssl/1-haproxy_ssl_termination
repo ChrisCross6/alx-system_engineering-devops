@@ -40,7 +40,7 @@ frontend http.mubareksd.tech
 	default_backend webservers
 
 frontend https.mubareksd.tech
-	bind *:443 crt /etc/ssl/mubareksd.tech.pem
+	bind *:443 ssl crt /etc/letsencrypt/live/mubareksd.tech/fullchain.pem
 	http-request set-header X-Forwarded-Proto https
 	default_backend webservers
 
