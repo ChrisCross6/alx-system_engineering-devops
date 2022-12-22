@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Comment
-apt-get update -y
-apt-get upgrade -y
+apt-get -y update
+apt-get -y install nginx
+ufw allow 'Nginx HTTP'
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
 service nginx start
