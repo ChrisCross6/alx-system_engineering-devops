@@ -9,7 +9,7 @@ from sys import argv
 if __name__ == '__main__':
     userId = argv[1]
     user = get("https://jsonplaceholder.typicode.com/users/{}"
-                        .format(userId))
+               .format(userId))
 
     name = user.json().get('name')
 
