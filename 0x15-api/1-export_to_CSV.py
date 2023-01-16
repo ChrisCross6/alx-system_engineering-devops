@@ -1,19 +1,17 @@
 #!/usr/bin/python3
-"""using this REST API, for a given employee ID,
-returns information about his/her TODO list progress
-"""
-import csv
-from requests import get
-from sys import argv
+"""Exports data in the CSV format"""
 
+if __name__ == "__main__":
 
-if __name__ == '__main__':
-    userId = argv[1]
-    user = get("https://jsonplaceholder.typicode.com/users/{}"
-               .format(userId))
+    import csv
+    import requests
+    import sys
 
-    name = user.json().get('name')
-    todos = get('https://jsonplaceholder.typicode.com/todos')
+    userId = sys.argv[1]
+    user = requests.get("https://jsonplaceholder.typicode.com/users/{}"
+                        .format(userId))
+    name = user.json().get('username')
+    todos = requests.get('https://jsonplaceholder.typicode.com/todos')
 
     filename = userId + '.csv'
     with open(filename, mode='w') as f:
