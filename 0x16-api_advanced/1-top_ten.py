@@ -9,7 +9,7 @@ def top_ten(subreddit):
     """
     if subreddit is None:
         return 0
-    url = "https://www.reddit.com/r/{}/hot/.json".format(subreddit)
+    url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
     headers = {
         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:108.0) \
                 Gecko/20100101 Firefox/108.0"
